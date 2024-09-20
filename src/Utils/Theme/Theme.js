@@ -22,5 +22,8 @@ export const Colors = {
     },
     btn:{
         primary: "#CF76DD",
+    },
+    white:{
+        primary:"#fff"
     }
 }
