@@ -23,6 +23,8 @@ const Explore = () => {
     {id: 5, task: 'Events', color: '#FFC8AB', img: Images.Exp5},
     {id: 6, task: 'Health Care', color: '#CFCFFF', img: Images.Exp6},
   ];
+
+  // hello shagun
   return (
     <View style={styles.container}>
       <View style={[Styles.row, {justifyContent: 'space-between'}]}>
