@@ -46,6 +46,8 @@ const Explore = () => {
         renderItem={({item}) => (
           <LinearGradient
             colors={['#fff', item.color]}
+            start={{x: 0.1, y: .1}}
+            end={{x: 1, y: 1}}
             style={[
               styles.exploreView,
               Styles.row,
