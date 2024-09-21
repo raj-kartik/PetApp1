@@ -155,7 +155,7 @@ const Home = () => {
           {/* popular services */}
           <View style={{marginTop: moderateScale(5)}}>
             <View style={[Styles.row, {justifyContent: 'space-between'}]}>
-              <CustomText text="Popular Services" />
+              <CustomText customStyle={{fontWeight:800}}  text="Popular Services" />
               <TouchableOpacity>
                 <CustomIcon type="Entypo" name="dots-three-horizontal" />
               </TouchableOpacity>
@@ -176,7 +176,7 @@ const Home = () => {
           {/* service providers */}
           <View style={{marginTop: moderateScale(5)}}>
             <View style={[Styles.row, {justifyContent: 'space-between'}]}>
-              <CustomText text="Service Provider" />
+              <CustomText customStyle={{fontWeight:800}}  text="Service Provider" />
               <TouchableOpacity>
                 <CustomIcon type="Entypo" name="dots-three-horizontal" />
               </TouchableOpacity>
@@ -189,7 +189,7 @@ const Home = () => {
 
         <View style={{marginHorizontal:moderateScale(10)}} >
           <View style={[Styles.row, {justifyContent: 'space-between'}]}>
-            <CustomText text="Ratings" />
+            <CustomText customStyle={{fontWeight:800}}  text="Ratings" />
             <TouchableOpacity>
               <CustomIcon type="Entypo" name="dots-three-horizontal" />
             </TouchableOpacity>
@@ -199,11 +199,13 @@ const Home = () => {
             <CustomText
               textColor={Colors.text.secondary}
               size={12}
+              customStyle={{fontWeight:800}} 
               text="13 Reviews"
             />
             <TouchableOpacity style={Styles.row}>
               <CustomText
                 text="WRITE A REVIEW "
+                customStyle={{fontWeight:800}} 
                 size={12}
                 textColor={Colors.text.secondary}
               />

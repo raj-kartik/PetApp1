@@ -14,8 +14,10 @@ const Card2 = ({item, key}) => {
   return (
     <View style={styles.container}>
       <View style={[styles.spotView, styles.spotLeft]} />
-      <Image source={item?.img} style={{marginVertical: moderateScale(5)}} />
-      <CustomText text={item?.service} />
+      <View style={{flex:0.8}} >
+        <Image source={item?.img} style={{marginVertical: moderateScale(5)}} />
+      </View>
+      <CustomText customStyle={{fontWeight:500}}  text={item?.service} />
       <View style={[styles.spotView, styles.spotRight]} />
     </View>
   );

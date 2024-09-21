@@ -13,12 +13,21 @@ const Card1 = ({text, subText}) => {
       colors={[Colors.gradient.primary, Colors.gradient.secondary]}
       style={[styles.container, Styles.row]}>
       <View style={styles.bookview}>
-        <CustomText text="Book Now!" textColor={Colors.text.secondary} />
-        <CustomText text="-20%" />
+        <CustomText
+          customStyle={{fontWeight: 800}}
+          size={18}
+          text="Book Now!"
+          textColor={Colors.text.secondary}
+        />
+        <CustomText text="-20%" customStyle={{fontWeight: 800}} size={14} />
       </View>
 
-      <View style={[styles.center, {flex: 1}]}>
-        <CustomText text="All-New Groomers in Town!" />
+      <View style={[styles.center, {flex: 1, marginLeft: moderateScale(15)}]}>
+        <CustomText
+          customStyle={{fontWeight: 800}}
+          size={18}
+          text="All-New Groomers in Town!"
+        />
       </View>
 
       <View

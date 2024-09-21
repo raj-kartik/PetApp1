@@ -16,11 +16,11 @@ const Card3 = ({item, key}) => {
         <Image source={item.dp} />
       </View>
       <View style={[{flex: 1}]}>
-        <CustomText text={item?.name} />
+        <CustomText customStyle={{fontWeight:800}} size={18} text={item?.name} />
         <CustomText size={10} text={item?.reveiw} />
 
         <View style={Styles.row}>
-          <CustomButton color="#fff" title="Know More" />
+          <CustomButton customStyle={{paddingHorizontal:moderateScale(10)}} textStyles={{fontWeight:600}} color="#fff" title="Know More" />
         </View>
       </View>
     </View>

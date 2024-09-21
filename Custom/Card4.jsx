@@ -40,7 +40,7 @@ const Card4 = ({item, key}) => {
   return (
     <View key={key} style={[Styles.row, styles.container]}>
       <View style={{padding: moderateScale(10), flex: 0.7}}>
-        <CustomText text={item?.name} />
+        <CustomText customStyle={{fontWeight:800}} size={18} text={item?.name} />
         <View style={Styles.row}>{renderStars()}</View>
         <CustomText size={10} text={item?.comment} />
       </View>
