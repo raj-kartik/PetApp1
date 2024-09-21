@@ -1,22 +1,21 @@
 export const Colors = {
-    primary:"#905CFF",
-    secondary:"#EEE6FF",
-    tertiary:"#EDFFCE",
+    primary:"#FFCBCB",
+    secondary:"#FFE7EA",
+    tertiary:"#FF8DDF",
     nav:{
-        primary:"#905CFF",
+        primary:"#CF76DD",
     },
     text:{
         primary:"#000000",
         secondary:"#FF6694"
     },
     icon:{
-        primary:"#905CFF",
-        secondary:"#060047",
-        tertiary:"#FF8A00"
+        primary:"",
+        secondary:""
     },
     gradient:{
-        primary:"#9766FF",
-        secondary:"#F7F3FF"
+        primary:"#FFB5B1",
+        secondary:"#CD7ED9"
     },
     spot:{
         primary:"#FFCBCB"

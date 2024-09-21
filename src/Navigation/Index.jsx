@@ -83,10 +83,7 @@ const HomeBlank = ({navigation}) => {
             ref={viewRef}
             style={[
               StyleSheet.absoluteFillObject,
-              {
-                backgroundColor: Colors.secondary,
-                borderRadius: moderateScale(20),
-              },
+              {backgroundColor: Colors.primary, borderRadius: moderateScale(20)},
             ]}
           />
           <View
@@ -97,13 +94,13 @@ const HomeBlank = ({navigation}) => {
             <CustomIcon
               type={item.type}
               name={item.icon}
-              color={focused ? Colors.nav.primary : '#060047'}
+              color={focused ? Colors.nav.primary : "#060047"}
             />
             <Animatable.View ref={textViewRef}>
               {focused && (
                 <Text
                   style={{
-                    color: '#252762D9',
+                    color: "#252762D9",
                     paddingHorizontal: 8,
                   }}>
                   {item.label}
@@ -161,5 +158,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 8,
     borderRadius: 16,
-  },
-});
+  }
+})
